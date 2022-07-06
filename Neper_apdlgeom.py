@@ -72,7 +72,7 @@ print("C*** area count = ",count, file = f2)
 
 print("C*** area count = ",count)
  
-count = 0
+count = 0                                       # it is necessary to comment out from here, if you require only 2d tessellations.
 pattern4 = re.compile(r'Surface\sLoop.*\b')
 
 matches4 = pattern4.finditer(st)
